@@ -4,6 +4,10 @@ import React, { Component } from 'react';
 import './css/Content.css';
 
 class Content extends Component {
+	constructor(){
+		super();
+	}
+
   render() {
     return (
       <div className="footer">
